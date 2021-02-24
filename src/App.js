@@ -5,15 +5,6 @@ import profilePic from './assets/ProfilePic.jpg';
 
 class App extends Component {
   state = {displayBio: false};
-  // constructor(props) {
-  //   super(props);
-  //   this.state = { displayBio: false };
-
-  //   console.log("component this", this);
-
-  //   this.toggleDisplayBio = this.toggleDisplayBio.bind(this);
-  // }
-
   toggleDisplayBio = () => {
     this.setState({ displayBio: !this.state.displayBio });
   };
@@ -21,23 +12,22 @@ class App extends Component {
   render() {
     return (
       <div>
+         <h1><strong>&lt;h1&gt;Hello World!&lt;/h1&gt;</strong></h1>
         <img src={profilePic} alt="Profile picture" className="profile"/>
-        <h1>Hello!</h1>
-        <p>My name is Robin. I am an aspiring software engineer.</p>
+        <p>My name is Robin. I am Fullstack JavaScript Software Developer.</p>
         <p>I enjoy working on meaningful projects</p>
         {this.state.displayBio ? (
           <div>
             <p>I live in Reno, NV</p>
-            <p>I am digging JavaScript</p>
+            <p>I find great satisfaction in resolving bugs</p>
             <p>
-              Besides coding, I am also a soccer enthusiast and enjoy coffee
-              time with my friends!
+              Besides coding, I am a soccer enthusiast. I enjoy going to local cafes to code, drink coffee, and discuss changing the world.  I also meditate frequently.
             </p>
             <button onClick={this.toggleDisplayBio}>Show Less</button>
           </div>
         ) : (
           <div>
-            <button onClick={this.toggleDisplayBio}>Read More</button>
+            <button onClick={this.toggleDisplayBio}>onClick</button>
           </div>
         )}
         <hr/>

@@ -4,23 +4,26 @@ import project3 from '../assets/project3.png';
 
 const PROJECTS = [{
     id: 0,
-    title: 'Example React Application',
-    description: 'A React App that I built',
-    link: '',
+    title: 'Artemisia MovieHouse React Application',
+    description: 'A React App that I built using React Router and Redux',
+    link: 'https://github.com/RobinN80/artemisia-react',
+    video: 'https://youtu.be/ZJ-wawcLG0c',
     image: project1
 },
 {
     id: 1,
-    title: 'Artemisia with Bootstrap',
-    description: 'An App that I built using bootstrap',
-    link: '',
+    title: 'Server-side project for the Artemisia MovieHouse',
+    description: 'A node.js server that uses RESTful APIs',
+    link: 'https://github.com/RobinN80/artemisiaServer',
+    video: 'https://youtu.be/-ObolTjpO3A',
     image: project2
 },
 {
     id: 2,
-    title: 'Artemisia with React',
-    description: 'A App that I built using React',
-    link: '',
+    title: 'Nucampsite Mobile App',
+    description: 'Coding bootcamp project: a mock website built with React Native, using Redux and Reactstrap',
+    link: 'https://github.com/RobinN80/nucampsite-react-native',
+    video: '',
     image: project3
 },
 ];

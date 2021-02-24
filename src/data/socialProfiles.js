@@ -15,7 +15,7 @@ const SOCIAL_PROFILES = [
     },
     {
         id: 3,
-        link: 'https://www.linkedin.com/in/robin-novak-3521a58b/',
+        link: 'https://www.linkedin.com/in/robin-novak/',
         image: linkedinIcon
     }
 ];
