@@ -14,14 +14,13 @@ class App extends Component {
       <div>
          <h1><strong>&lt;h1&gt;Hello World!&lt;/h1&gt;</strong></h1>
         <img src={profilePic} alt="Profile picture" className="profile"/>
-        <p>My name is Robin. I am Fullstack JavaScript Software Developer.</p>
-        <p>I enjoy working on meaningful projects</p>
+        <p>My name is Robin. I am Fullstack JavaScript Software Developer based in Reno, Nevada.</p>
+        <p>My role in the world is to enhance connectivity, both on the computer and off...</p>
         {this.state.displayBio ? (
           <div>
-            <p>I live in Reno, NV</p>
-            <p>I find great satisfaction in resolving bugs</p>
+            <p>...and I find great satisfaction in resolving bugs!</p>
             <p>
-              Besides coding, I am a soccer enthusiast. I enjoy going to local cafes to code, drink coffee, and discuss changing the world.  I also meditate frequently.
+              Besides coding, I (still) am an avid soccer player, I enjoy going to local cafes to engage with others to discuss how to change the world, and I can not seem get enough walks by the river. 
             </p>
             <button onClick={this.toggleDisplayBio}>Show Less</button>
           </div>
